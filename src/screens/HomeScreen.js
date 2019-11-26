@@ -36,6 +36,12 @@ const HomeScreen = props => {
         }}
         title="Go to Color Page!"
       />
+      <Button
+        onPress={() => {
+          navigation.navigate('Square');
+        }}
+        title="Go to Square Page!"
+      />
 
       {/* <TouchableOpacity
         onPress={() => {
