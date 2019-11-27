@@ -42,6 +42,12 @@ const HomeScreen = props => {
         }}
         title="Go to Square Page!"
       />
+      <Button
+        onPress={() => {
+          navigation.navigate('Text');
+        }}
+        title="Go to Text Page!"
+      />
 
       {/* <TouchableOpacity
         onPress={() => {
