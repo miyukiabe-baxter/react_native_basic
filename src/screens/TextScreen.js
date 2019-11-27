@@ -30,9 +30,6 @@ const styles = StyleSheet.create({
     margin: 15,
     borderColor: 'black',
     borderWidth: 1
-  },
-  passwordMsg: {
-
   }
 });
 

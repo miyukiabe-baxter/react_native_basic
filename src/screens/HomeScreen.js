@@ -48,6 +48,12 @@ const HomeScreen = props => {
         }}
         title="Go to Text Page!"
       />
+      <Button
+        onPress={() => {
+          navigation.navigate('Box');
+        }}
+        title="Go to Box Page!"
+      />
 
       {/* <TouchableOpacity
         onPress={() => {
